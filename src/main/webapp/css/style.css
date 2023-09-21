@@ -1,0 +1,44 @@
+body {
+    background-color: grey !important; /* Usa !important para darle mayor prioridad */
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+
+/* Estilo personalizado para la barra de navegación */
+.custom-navbar {
+    padding: 5px 0; /* Ajusta este valor para controlar la altura superior e inferior */
+}
+
+/* Estilo personalizado para los enlaces en la barra de navegación */
+.custom-navbar .nav-link {
+    padding: 5px 5px; /* Ajusta este valor para controlar la altura de los enlaces */
+}
+
+/* Estilo personalizado para el logotipo */
+.custom-navbar .navbar-brand img {
+    max-height: 24px; /* Ajusta este valor para controlar la altura del logotipo */
+}
+
+.table-container {
+    max-height: 500px; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical si la tabla es larga */
+}
+
